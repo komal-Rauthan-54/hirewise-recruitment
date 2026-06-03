@@ -1,10 +1,4 @@
-# HireWise — AI-Powered Recruitment Platform
 
-> **Assignment:** AI-Powered Recruitment Experience  
-> **Timeline:** 5 days  
-> **Demo Login:** hire-me@anshumat.org / HireMe@2025!
-
----
 
 ## 🎯 Problem Understanding
 
@@ -172,19 +166,15 @@ For a single-page recruitment app where routing is minimal and the AI interactio
 - Node.js v18+
 - npm v9+
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/your-username/hirewise.git
-cd hirewise
-```
 
-### 2. Install backend dependencies
+
+###  Install backend dependencies
 ```bash
 cd backend
 npm install
 ```
 
-### 3. Set environment variables (optional — for live AI)
+###  Set environment variables (optional — for live AI)
 ```bash
 # backend/.env
 ANTHROPIC_API_KEY=your_key_here
@@ -232,30 +222,3 @@ hirewise/
 └── README.md
 ```
 
----
-
-## 📊 Evaluation Coverage
-
-| Criterion | Weight | Implementation |
-|---|---|---|
-| UX Thinking | 25% | 7 screens with clear flows, sidebar navigation, progress tracking |
-| AI Interaction Design | 20% | Natural language → structured JSON for every section |
-| Problem Solving | 20% | No PDF upload anywhere in the flow |
-| Product Thinking | 15% | Auto-save, progress bar, export, shareable link |
-| Visual Design | 10% | Custom design system: Syne + DM Sans, lime/violet palette, grain texture |
-| Originality | 10% | Conversational AI input pattern — not LinkedIn/Naukri clone |
-
----
-
-## ✅ Requirements Checklist
-
-- [x] No resume upload flow
-- [x] AI-assisted profile builder
-- [x] Structured data capture
-- [x] User onboarding with AI introduction
-- [x] 6–8 core screens (7 delivered)
-- [x] Auto-save + progress tracking
-- [x] Export (PDF button) + share profile link
-- [x] Recruiter view with shortlist actions
-- [x] Demo login seeded and working
-- [x] GitHub-ready structure with README
